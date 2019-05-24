@@ -50,32 +50,32 @@ void setup()                    // run once, when the sketch starts
 
 void loop()
 {
-  NiceSky();
+  NiceSky();            //makes ocean, sky, and sun. 
     DisplaySlate();
     delay(1000);
   NiceSky();
-  Wave1();
+  Wave1();             //wave starts to form.
     DisplaySlate();
     delay(500);
-  Wave2();
+  Wave2();             //still forming.
     DisplaySlate();
     delay(500);
-  Wave3();
-    DisplaySlate();
-    delay(500);
-    ClearSlate();
-  NiceSky();
-  Wave4();
+  Wave3();           
     DisplaySlate();
     delay(500);
     ClearSlate();
   NiceSky();
-  Wave5();
+  Wave4();          //wave begins to crash. 
     DisplaySlate();
     delay(500);
     ClearSlate();
   NiceSky();
-  Wave6();
+  Wave5();         //wave crashes. 
+    DisplaySlate();
+    delay(500);
+    ClearSlate();
+  NiceSky();
+  Wave6();           //wave fades out. 
     DisplaySlate();
     delay(500);
     ClearSlate();
@@ -85,7 +85,7 @@ void loop()
     delay(500);
     ClearSlate();
   NiceSky();
-  Wave8();
+  Wave8();          //wave is gone. 
     DisplaySlate();
     delay(500);
     ClearSlate();
